@@ -18,6 +18,7 @@ def run_tests():
     test_add()
     test_multiply()
     print("All tests passed!")
+    print('Congrats')
 
 if __name__ == "__main__":
     run_tests()
