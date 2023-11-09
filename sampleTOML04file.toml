@@ -1,0 +1,18 @@
+# This is a sample TOML file
+
+title = "Example TOML Configuration"
+
+[database]
+  server = "localhost"
+  port = 5432
+  username = "myuser"
+  password = "mypassword"
+  database_name = "mydatabase"
+
+[app]
+  version = "1.0.0"
+  debug_mode = false
+
+[author]
+  name = "John Doe"
+  email = "johndoe@example.com"

@@ -1,0 +1,38 @@
+@echo off
+echo This is a larger .BTM script
+echo --------------------------
+
+setlocal
+
+:: Define variables
+set name=John
+set age=30
+set city=New York
+set job_title=Engineer
+
+:: Display a greeting
+echo Hello, %name%! Welcome to %city%.
+echo You are a %job_title% and you are %age% years old.
+
+:: Perform some calculations
+set /a "years_until_retirement=65 - %age%"
+echo You have %years_until_retirement% years until retirement.
+
+:: Create a loop
+echo Counting to 10:
+for /l %%i in (1, 1, 10) do (
+    echo %%i
+)
+
+:: Call a subroutine
+call :example_subroutine
+
+:: End of script
+endlocal
+goto :eof
+
+:example_subroutine
+echo This is a subroutine.
+echo It can be called from the main script.
+echo Goodbye from the subroutine.
+goto :eof

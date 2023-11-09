@@ -1,0 +1,17 @@
+# Complex YAML configuration
+server:
+  hostname: example.com
+  port: 8080
+  ssl: true
+
+database:
+  name: mydb
+  username: myuser
+  password: mypassword
+  connection_pool:
+    max_connections: 50
+    min_connections: 10
+
+logging:
+  log_level: info
+  log_file: /var/log/myapp.log

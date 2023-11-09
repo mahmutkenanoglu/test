@@ -1,0 +1,10 @@
+[0;31m[0m
+[0;31mModuleNotFoundError[0mTraceback (most recent call last)
+File [0;32m/tmp/8e84fa3ba6bc45cfa534c78083aad88a.py:28[0m
+[1;32m     26[0m [38;5;28;01mimport[39;00m [38;5;21;01msys[39;00m
+[1;32m     27[0m sys[38;5;241m.[39mpath[38;5;241m.[39mappend([38;5;124m"[39m[38;5;124m..[39m[38;5;124m"[39m)
+[0;32m---> 28[0m [38;5;28;01mfrom[39;00m [38;5;21;01mai4mat[39;00m[38;5;21;01m.[39;00m[38;5;21;01mdata[39;00m[38;5;21;01m.[39;00m[38;5;21;01mdata[39;00m [38;5;28;01mimport[39;00m StorageResolver, read_trial
+[1;32m     31[0m [38;5;66;03m# In[2]:[39;00m
+[1;32m     34[0m targets [38;5;241m=[39m [[38;5;124m"[39m[38;5;124mformation_energy_per_site[39m[38;5;124m"[39m]
+
+[0;31mModuleNotFoundError[0m: No module named 'ai4mat'
