@@ -1,1 +1,1 @@
-print('Good job buddy')
+print('Good job buddy man')
