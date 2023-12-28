@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-light">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=1200" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>Constructor Research Platform - Resources</title>
+    <meta name="description" content="Constructor Research Platform" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#f3f3f3" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180x180.png" />
+    <link
+      rel="preload"
+      type="font/woff2"
+      as="font"
+      crossorigin
+      href="/assets/inter_regular-954bfdf8.woff2"
+    />
+    <link
+      rel="preload"
+      type="font/woff2"
+      as="font"
+      crossorigin
+      href="/assets/inter_medium-725913b9.woff2"
+    />
+    <script type="module" crossorigin src="/assets/index-96002df4.js"></script>
+    <link rel="stylesheet" href="/assets/index-c3a6a95e.css">
+  </head>
+  <body>
+    <noscript>
+      <strong>
+        We're sorry but Constructor Research Platform doesn't work properly without JavaScript
+        enabled. Please enable it to continue.
+      </strong>
+    </noscript>
+    <div id="app">
+      <style>
+        .initial-screen {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translateX(-50%) translateY(-50%);
+          font: 400 14px/20px sans-serif;
+        }
+        .app-loader {
+          --loader-size: 24px;
+          --base-loader-color: #a1a1a1;
+          width: var(--loader-size);
+          height: var(--loader-size);
+          box-sizing: border-box;
+          border: max(2px, calc(var(--loader-size) / 16)) solid var(--base-loader-color);
+          border-left-color: transparent;
+          border-radius: 50%;
+          animation: spin 1s infinite linear;
+        }
+        @keyframes spin {
+          0% {
+            transform: rotate(0deg);
+          }
+
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+      </style>
+      <div class="initial-screen">
+        <span>Loading...</span>
+        <div class="app-loader"></div>
+      </div>
+    </div>
+    
+    <script id="server-data" type="text/plain">
+      {"environments":{"FRONT_SENTRY_ENABLED":"0","FRONT_GA_ENABLED":"0","FRONT_SENTRY_DSN":"https://a8b6ed235497481cbf3e496bdcfb6828@sentry.constr.dev/29","FRONT_SENTRY_TRACE_RATE":"1.0","FRONT_SENTRY_ENVIRONMENT":"stage","FRONT_CRISP_WEBSITE_ID":"9a50bede-dd82-44ba-a7aa-cf6d9da9c070","FRONT_GA_ID":"","FRONT_HUBSPOT_INVITE_CODE_FORM_ID":"caaf4035-aad2-4484-9ba3-abdc2d5cb6c8","FRONT_PUBLICATION_BASE_URL":"https://stage.platform.rolos.dev/open/","DRAFT_ATTACHMENTS_MAX_COUNT":"30","DRAFT_ATTACHMENTS_MAX_SIZE_BYTES":"52428800"}}
+    </script>
+  </body>
+</html>
