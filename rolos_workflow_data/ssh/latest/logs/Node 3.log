@@ -1,0 +1,246 @@
+2024-01-03 18:32:10,081 - [INFO] - (logger.py).send_status_ssh(76) - 
+RolosSSHStatus:{"status": "preparing", "timestamp": "2024-01-03T18:32:10Z", "pid": "None", "run_id": "f1cd97ef8da54d2cacc998561449bc3a"}
+2024-01-03 18:32:10,081 - [INFO] - (exec_remote.py).__init__(42) - ssh_client will be initialized, self.use_vpn: False, self.ssh_private_key: /tmp/tmpzqcqe1n1.key, project: b049ad67d50240f9a82d09687b507bd9, user: 32f935b6bd8d42b295ea57d93d604118
+2024-01-03 18:32:10,082 - [INFO] - (exec_remote.py)._get_client(110) - Connecting via SSH using private key, project: b049ad67d50240f9a82d09687b507bd9, user: 32f935b6bd8d42b295ea57d93d604118
+2024-01-03 18:32:10,240 - [INFO] - (exec_remote.py).__enter__(50) - ssh_client context enter, project: b049ad67d50240f9a82d09687b507bd9, user: 32f935b6bd8d42b295ea57d93d604118
+2024-01-03 18:32:10,242 - [INFO] - (common.py).write_exclude_file_list(24) - Files: ['./', './commit.py', './test copy.py', './File.cpp', './notebook copy.ipynb', './col49.py', './shTestNode2.sh', './test_json.json', './test_yaml.yaml', './sparse.png', './Error.log', './viewerFileMarkdown.md', './TEST.r', './VSCodeReadme.md', './notebook.ipynb', './storage_test.ipynb', './bat.bat', './test_cfg.cfg', './VISUAL2 (2).pdf', './rolos_workflow_data', './File.bash', './All_In_One.ipynb', './test1.py', './test_yml.yml', './shTestNode3.sh', './test.py', './notebooks_Intro.ipynb', './peview_big_py.py', './main', './main/common.py', './repo.py', './capitalCity.py', './shTestNode.sh', './common (1).py', './reg49test.py', './FIile.c', './MAT.mat', './Plotly Whirlwind Introduction-Extended.ipynb', './preview_small_py.py', './testLOCK.lock', './env_settings.png', './test_json_larger_than_2MB.json', './workflow (2).png', './arpmablmetest 2.pdf', './file.ipynb', './BTM.btm', './resources.html', './Calculate predictions.log', './Screen Shot 2023-11-22 at 11.39.38.png', './sample.ini', './100_rows_file.ipynb', './TEST.m', './failing_step.py', './fff (1).log', './sampleTOML04file.toml', './peview_big_py (1).py', './README (2) (1).md', './fff.log', './Example.java']
+2024-01-03 18:32:10,242 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./commit.py
+2024-01-03 18:32:10,242 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./test copy.py
+2024-01-03 18:32:10,243 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./File.cpp
+2024-01-03 18:32:10,243 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./notebook copy.ipynb
+2024-01-03 18:32:10,243 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./col49.py
+2024-01-03 18:32:10,243 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./shTestNode2.sh
+2024-01-03 18:32:10,243 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./test_json.json
+2024-01-03 18:32:10,243 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./test_yaml.yaml
+2024-01-03 18:32:10,243 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./sparse.png
+2024-01-03 18:32:10,243 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./Error.log
+2024-01-03 18:32:10,243 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./viewerFileMarkdown.md
+2024-01-03 18:32:10,244 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./TEST.r
+2024-01-03 18:32:10,244 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./VSCodeReadme.md
+2024-01-03 18:32:10,244 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./notebook.ipynb
+2024-01-03 18:32:10,244 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./storage_test.ipynb
+2024-01-03 18:32:10,244 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./bat.bat
+2024-01-03 18:32:10,244 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./test_cfg.cfg
+2024-01-03 18:32:10,244 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./VISUAL2 (2).pdf
+2024-01-03 18:32:10,244 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./File.bash
+2024-01-03 18:32:10,244 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./All_In_One.ipynb
+2024-01-03 18:32:10,244 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./test1.py
+2024-01-03 18:32:10,245 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./test_yml.yml
+2024-01-03 18:32:10,245 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./shTestNode3.sh
+2024-01-03 18:32:10,245 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./test.py
+2024-01-03 18:32:10,245 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./notebooks_Intro.ipynb
+2024-01-03 18:32:10,245 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./peview_big_py.py
+2024-01-03 18:32:10,245 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./main/common.py
+2024-01-03 18:32:10,245 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./repo.py
+2024-01-03 18:32:10,245 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./capitalCity.py
+2024-01-03 18:32:10,245 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./shTestNode.sh
+2024-01-03 18:32:10,245 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./common (1).py
+2024-01-03 18:32:10,246 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./reg49test.py
+2024-01-03 18:32:10,246 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./FIile.c
+2024-01-03 18:32:10,246 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./MAT.mat
+2024-01-03 18:32:10,246 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./Plotly Whirlwind Introduction-Extended.ipynb
+2024-01-03 18:32:10,246 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./preview_small_py.py
+2024-01-03 18:32:10,246 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./testLOCK.lock
+2024-01-03 18:32:10,246 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./env_settings.png
+2024-01-03 18:32:10,246 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./test_json_larger_than_2MB.json
+2024-01-03 18:32:10,246 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./workflow (2).png
+2024-01-03 18:32:10,246 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./arpmablmetest 2.pdf
+2024-01-03 18:32:10,247 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./file.ipynb
+2024-01-03 18:32:10,247 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./BTM.btm
+2024-01-03 18:32:10,247 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./resources.html
+2024-01-03 18:32:10,247 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./Calculate predictions.log
+2024-01-03 18:32:10,247 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./Screen Shot 2023-11-22 at 11.39.38.png
+2024-01-03 18:32:10,247 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./sample.ini
+2024-01-03 18:32:10,247 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./100_rows_file.ipynb
+2024-01-03 18:32:10,247 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./TEST.m
+2024-01-03 18:32:10,247 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./failing_step.py
+2024-01-03 18:32:10,247 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./fff (1).log
+2024-01-03 18:32:10,248 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./sampleTOML04file.toml
+2024-01-03 18:32:10,248 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./peview_big_py (1).py
+2024-01-03 18:32:10,248 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./README (2) (1).md
+2024-01-03 18:32:10,248 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./fff.log
+2024-01-03 18:32:10,248 - [INFO] - (common.py).write_exclude_file_list(30) - File to be excluded from backward downloading: ./Example.java
+2024-01-03 18:32:10,555 - [INFO] - (common.py).__init__(70) - Current remote compute home folder: /home/rolos-platform
+2024-01-03 18:32:10,563 - [INFO] - (exec_remote.py).rsync_put(159) - Execute rsync put: /home/coder/project/ >> /home/rolos-platform/.rolos_files/f1cd97ef8da54d2cacc998561449bc3a_Node 3/.
+2024-01-03 18:32:11,383 - [INFO] - (exec_remote.py).rsync_put(195) - rsync put finished
+2024-01-03 18:32:11,384 - [INFO] - (run.py).prepare_client_and_server_side(164) - Warning: Permanently added '185.209.82.164' (ED25519) to the list of known hosts.
+sending incremental file list
+./
+100_rows_file.ipynb
+          1,991 100%    0.00kB/s    0:00:00            1,991 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=58/60)
+All_In_One.ipynb
+         32,768   0%   31.25MB/s    0:00:00        3,373,146 100%   41.78MB/s    0:00:00 (xfr#2, to-chk=57/60)
+BTM.btm
+            731 100%    9.27kB/s    0:00:00              731 100%    9.27kB/s    0:00:00 (xfr#3, to-chk=56/60)
+Calculate predictions.log
+          3,386 100%   42.39kB/s    0:00:00            3,386 100%   42.39kB/s    0:00:00 (xfr#4, to-chk=55/60)
+Error.log
+             37 100%    0.46kB/s    0:00:00               37 100%    0.46kB/s    0:00:00 (xfr#5, to-chk=54/60)
+Example.java
+            124 100%    1.55kB/s    0:00:00              124 100%    1.55kB/s    0:00:00 (xfr#6, to-chk=53/60)
+FIile.c
+             80 100%    1.00kB/s    0:00:00               80 100%    1.00kB/s    0:00:00 (xfr#7, to-chk=52/60)
+File.bash
+             86 100%    1.06kB/s    0:00:00               86 100%    1.06kB/s    0:00:00 (xfr#8, to-chk=51/60)
+File.cpp
+            376 100%    4.65kB/s    0:00:00              376 100%    4.65kB/s    0:00:00 (xfr#9, to-chk=50/60)
+MAT.mat
+            275 100%    3.40kB/s    0:00:00              275 100%    3.40kB/s    0:00:00 (xfr#10, to-chk=49/60)
+Plotly Whirlwind Introduction-Extended.ipynb
+         32,768   0%  395.06kB/s    0:00:08        3,298,269 100%   23.65MB/s    0:00:00 (xfr#11, to-chk=48/60)
+README (2) (1).md
+         10,880 100%   79.29kB/s    0:00:00           10,880 100%   79.29kB/s    0:00:00 (xfr#12, to-chk=47/60)
+Screen Shot 2023-11-22 at 11.39.38.png
+         32,768  10%  235.29kB/s    0:00:01          310,682 100%    2.06MB/s    0:00:00 (xfr#13, to-chk=46/60)
+TEST.m
+            251 100%    1.70kB/s    0:00:00              251 100%    1.70kB/s    0:00:00 (xfr#14, to-chk=45/60)
+TEST.r
+            670 100%    4.54kB/s    0:00:00              670 100%    4.54kB/s    0:00:00 (xfr#15, to-chk=44/60)
+VISUAL2 (2).pdf
+         32,768   0%  219.18kB/s    0:00:15        3,435,950 100%   13.05MB/s    0:00:00 (xfr#16, to-chk=43/60)
+VSCodeReadme.md
+            162 100%    0.63kB/s    0:00:00              162 100%    0.63kB/s    0:00:00 (xfr#17, to-chk=42/60)
+arpmablmetest 2.pdf
+         32,768   8%  126.48kB/s    0:00:02          365,545 100%    1.33MB/s    0:00:00 (xfr#18, to-chk=41/60)
+bat.bat
+            896 100%    3.34kB/s    0:00:00              896 100%    3.34kB/s    0:00:00 (xfr#19, to-chk=40/60)
+capitalCity.py
+            592 100%    2.20kB/s    0:00:00              592 100%    2.20kB/s    0:00:00 (xfr#20, to-chk=39/60)
+col49.py
+             27 100%    0.10kB/s    0:00:00               27 100%    0.10kB/s    0:00:00 (xfr#21, to-chk=38/60)
+commit.py
+             21 100%    0.08kB/s    0:00:00               21 100%    0.08kB/s    0:00:00 (xfr#22, to-chk=37/60)
+common (1).py
+            115 100%    0.43kB/s    0:00:00              115 100%    0.43kB/s    0:00:00 (xfr#23, to-chk=36/60)
+env_settings.png
+         32,768  65%  120.75kB/s    0:00:00           49,829 100%  183.63kB/s    0:00:00 (xfr#24, to-chk=35/60)
+failing_step.py
+            221 100%    0.81kB/s    0:00:00              221 100%    0.81kB/s    0:00:00 (xfr#25, to-chk=34/60)
+fff (1).log
+            782 100%    2.87kB/s    0:00:00              782 100%    2.87kB/s    0:00:00 (xfr#26, to-chk=33/60)
+fff.log
+            782 100%    2.87kB/s    0:00:00              782 100%    2.87kB/s    0:00:00 (xfr#27, to-chk=32/60)
+file.ipynb
+          2,197 100%    8.04kB/s    0:00:00            2,197 100%    8.04kB/s    0:00:00 (xfr#28, to-chk=31/60)
+notebook copy.ipynb
+            875 100%    3.20kB/s    0:00:00              875 100%    3.20kB/s    0:00:00 (xfr#29, to-chk=30/60)
+notebook.ipynb
+            955 100%    3.49kB/s    0:00:00              955 100%    3.49kB/s    0:00:00 (xfr#30, to-chk=29/60)
+notebooks_Intro.ipynb
+         32,768  40%  118.96kB/s    0:00:00           80,570 100%  291.41kB/s    0:00:00 (xfr#31, to-chk=28/60)
+peview_big_py (1).py
+         32,768   0%  117.65kB/s    0:00:42        5,028,605 100%   15.32MB/s    0:00:00 (xfr#32, to-chk=27/60)
+peview_big_py.py
+         32,768   0%  101.59kB/s    0:00:49        5,028,605 100%   13.36MB/s    0:00:00 (xfr#33, to-chk=26/60)
+preview_small_py.py
+         32,768   7%   88.89kB/s    0:00:04          454,421 100%    1.19MB/s    0:00:00 (xfr#34, to-chk=25/60)
+reg49test.py
+            770 100%    2.07kB/s    0:00:00              770 100%    2.07kB/s    0:00:00 (xfr#35, to-chk=24/60)
+repo.py
+             18 100%    0.05kB/s    0:00:00               18 100%    0.05kB/s    0:00:00 (xfr#36, to-chk=23/60)
+resources.html
+          2,958 100%    7.91kB/s    0:00:00            2,958 100%    7.91kB/s    0:00:00 (xfr#37, to-chk=22/60)
+sample.ini
+            243 100%    0.65kB/s    0:00:00              243 100%    0.65kB/s    0:00:00 (xfr#38, to-chk=21/60)
+sampleTOML04file.toml
+            305 100%    0.82kB/s    0:00:00              305 100%    0.82kB/s    0:00:00 (xfr#39, to-chk=20/60)
+shTestNode.sh
+            383 100%    1.02kB/s    0:00:00              383 100%    1.02kB/s    0:00:00 (xfr#40, to-chk=19/60)
+shTestNode2.sh
+            136 100%    0.36kB/s    0:00:00              136 100%    0.36kB/s    0:00:00 (xfr#41, to-chk=18/60)
+shTestNode3.sh
+            401 100%    1.07kB/s    0:00:00              401 100%    1.07kB/s    0:00:00 (xfr#42, to-chk=17/60)
+sparse.png
+         32,768  13%   86.96kB/s    0:00:02          241,445 100%  628.76kB/s    0:00:00 (xfr#43, to-chk=16/60)
+storage_test.ipynb
+          7,196 100%   18.74kB/s    0:00:00            7,196 100%   18.74kB/s    0:00:00 (xfr#44, to-chk=15/60)
+test copy.py
+             23 100%    0.06kB/s    0:00:00               23 100%    0.06kB/s    0:00:00 (xfr#45, to-chk=14/60)
+test.py
+             22 100%    0.06kB/s    0:00:00               22 100%    0.06kB/s    0:00:00 (xfr#46, to-chk=13/60)
+test1.py
+            433 100%    1.12kB/s    0:00:00              433 100%    1.12kB/s    0:00:00 (xfr#47, to-chk=12/60)
+testLOCK.lock
+            610 100%    1.58kB/s    0:00:00              610 100%    1.58kB/s    0:00:00 (xfr#48, to-chk=11/60)
+test_cfg.cfg
+            207 100%    0.54kB/s    0:00:00              207 100%    0.54kB/s    0:00:00 (xfr#49, to-chk=10/60)
+test_json.json
+            425 100%    1.10kB/s    0:00:00              425 100%    1.10kB/s    0:00:00 (xfr#50, to-chk=9/60)
+test_json_larger_than_2MB.json
+         32,768   0%   84.66kB/s    0:00:42        3,655,083 100%    8.52MB/s    0:00:00 (xfr#51, to-chk=8/60)
+test_yaml.yaml
+            278 100%    0.66kB/s    0:00:00              278 100%    0.66kB/s    0:00:00 (xfr#52, to-chk=7/60)
+test_yml.yml
+            278 100%    0.66kB/s    0:00:00              278 100%    0.66kB/s    0:00:00 (xfr#53, to-chk=6/60)
+viewerFileMarkdown.md
+            330 100%    0.79kB/s    0:00:00              330 100%    0.79kB/s    0:00:00 (xfr#54, to-chk=5/60)
+workflow (2).png
+         32,768  94%   77.86kB/s    0:00:00           34,721 100%   82.50kB/s    0:00:00 (xfr#55, to-chk=4/60)
+.rolos-temp/
+main/
+main/common.py
+            115 100%    0.27kB/s    0:00:00              115 100%    0.27kB/s    0:00:00 (xfr#56, to-chk=0/60)
+rolos_workflow_data/
+
+sent 5,157,001 bytes  received 1,099 bytes  3,438,733.33 bytes/sec
+total size is 25,398,514  speedup is 4.92
+
+2024-01-03 18:32:11,392 - [INFO] - (exec_remote.py).rsync_put(159) - Execute rsync put: /output/ >> /home/rolos-platform/.rolos_files/.rolos_workflow_data/f1cd97ef8da54d2cacc998561449bc3a_Node 3/
+2024-01-03 18:32:11,762 - [INFO] - (exec_remote.py).rsync_put(195) - rsync put finished
+2024-01-03 18:32:11,762 - [INFO] - (run.py).prepare_client_and_server_side(168) - sending incremental file list
+./
+Node 1_shTestNode.sh.log
+             53 100%    0.00kB/s    0:00:00               53 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=3/5)
+Node 2_shTestNode2.sh.log
+             45 100%   43.95kB/s    0:00:00               45 100%   43.95kB/s    0:00:00 (xfr#2, to-chk=2/5)
+.rolos-temp/
+main/
+
+sent 384 bytes  received 69 bytes  906.00 bytes/sec
+total size is 98  speedup is 0.22
+
+2024-01-03 18:32:11,863 - [INFO] - (run.py).run_job(88) - PID: 841316
+2024-01-03 18:32:11,863 - [INFO] - (logger.py).send_status_ssh(76) - 
+RolosSSHStatus:{"status": "running", "timestamp": "2024-01-03T18:32:11Z", "pid": "841316", "run_id": "f1cd97ef8da54d2cacc998561449bc3a"}
+2024-01-03 18:32:11,907 - [INFO] - (run.py).get_tail(105) - Script execution log:
+File 'example_file.txt' does not exist. Creating it...
+File created.
+
+2024-01-03 18:32:11,914 - [INFO] - (run.py).wait_for_the_process_end(122) - Try to read: '/home/rolos-platform/.rolos_files/f1cd97ef8da54d2cacc998561449bc3a_Node 3/_exit_code'
+2024-01-03 18:32:11,959 - [INFO] - (run.py).poll_pid_status(198) - Script completed with exit_code: 0
+2024-01-03 18:32:11,959 - [INFO] - (logger.py).send_status_ssh(76) - 
+RolosSSHStatus:{"status": "finalising", "timestamp": "2024-01-03T18:32:11Z", "pid": "841316", "run_id": "f1cd97ef8da54d2cacc998561449bc3a"}
+2024-01-03 18:32:11,960 - [INFO] - (exec_remote.py).rm_dir(258) - Remove remote folder: '/home/rolos-platform/.rolos_files/f1cd97ef8da54d2cacc998561449bc3a_Node 3/rolos_workflow_data'
+2024-01-03 18:32:11,963 - [INFO] - (exec_remote.py).rsync_get(209) - Execute rsync get: /home/rolos-platform/.rolos_files/f1cd97ef8da54d2cacc998561449bc3a_Node 3/ >> /output/
+2024-01-03 18:32:12,393 - [INFO] - (exec_remote.py).rsync_get(247) - rsync get finished
+2024-01-03 18:32:12,393 - [INFO] - (run.py).poll_pid_status(207) - receiving incremental file list
+./
+Node 3_shTestNode3.sh.log
+              0   0%    0.00kB/s    0:00:00               69 100%   67.38kB/s    0:00:00 (xfr#1, to-chk=3/5)
+example_file.txt
+              0   0%    0.00kB/s    0:00:00               34 100%    3.32kB/s    0:00:00 (xfr#2, to-chk=2/5)
+
+sent 1,233 bytes  received 384 bytes  1,078.00 bytes/sec
+total size is 103  speedup is 0.06
+
+2024-01-03 18:32:12,393 - [INFO] - (common.py).append_exclude_file_list(39) - File name will be added to the exclude list: Node 3_shTestNode3.sh.log
+2024-01-03 18:32:12,394 - [INFO] - (exec_remote.py).rsync_get(209) - Execute rsync get: /home/rolos-platform/.rolos_files/.rolos_workflow_data/f1cd97ef8da54d2cacc998561449bc3a_Node 3/ >> /output/
+2024-01-03 18:32:12,739 - [INFO] - (exec_remote.py).rsync_get(247) - rsync get finished
+2024-01-03 18:32:12,740 - [INFO] - (run.py).poll_pid_status(210) - receiving incremental file list
+./
+
+sent 60 bytes  received 226 bytes  572.00 bytes/sec
+total size is 98  speedup is 0.34
+
+2024-01-03 18:32:12,740 - [INFO] - (run.py).poll_pid_status(213) - New data was sent back.
+2024-01-03 18:32:12,740 - [INFO] - (exec_remote.py).rm_dir(258) - Remove remote folder: '/home/rolos-platform/.rolos_files/f1cd97ef8da54d2cacc998561449bc3a_Node 3/' '/home/rolos-platform/.rolos_files/.rolos_workflow_data/f1cd97ef8da54d2cacc998561449bc3a_Node 3/'
+2024-01-03 18:32:12,747 - [INFO] - (exec_remote.py).__exit__(62) - ssh_client will be closed, project: b049ad67d50240f9a82d09687b507bd9, user: 32f935b6bd8d42b295ea57d93d604118
+2024-01-03 18:32:12,748 - [INFO] - (logger.py).send_status_ssh(76) - 
+RolosSSHStatus:{"status": "succeeded", "timestamp": "2024-01-03T18:32:12Z", "pid": "841316", "run_id": "f1cd97ef8da54d2cacc998561449bc3a"}
+2024-01-03 18:32:12,748 - [INFO] - (run.py).run(267) - Passed
+ was sent back.
+Remove remote folder: '/home/rolos-platform/.rolos_files/f1cd97ef8da54d2cacc998561449bc3a_Node 3/' '/home/rolos-platform/.rolos_files/.rolos_workflow_data/f1cd97ef8da54d2cacc998561449bc3a_Node 3/'
+ssh_client will be closed, project: b049ad67d50240f9a82d09687b507bd9, user: 32f935b6bd8d42b295ea57d93d604118
+
+RolosSSHStatus:{"status": "succeeded", "timestamp": "2024-01-03T18:32:12Z", "pid": "841316", "run_id": "f1cd97ef8da54d2cacc998561449bc3a"}
+Passed

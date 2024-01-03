@@ -1,0 +1,3 @@
+What's your name?
+/home/rolos-platform/.rolos_files/7aceefa69f9c46e39279fc20380f1c1a_Node 1/./shTestNode.sh: line 8: syntax error near unexpected token `then'
+/home/rolos-platform/.rolos_files/7aceefa69f9c46e39279fc20380f1c1a_Node 1/./shTestNode.sh: line 8: `i [ -z "$name" ]; then'
